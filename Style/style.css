@@ -5,9 +5,7 @@ nav{
     background-image: url('/resources/Banner\ Image.png');
     color: white;
     font-size: large;
-    width: 100%;
-    height: 720px;
-    padding: 100px;
+    height: 600px;
 }
 .header-text{
     font-size: 45px;
@@ -27,9 +25,9 @@ nav{
     align-items: center;
     justify-content: center;
     background-image: url('/resources/Vectorrr.png');
-    width: auto;
+    width: 1320px;
     height: 400px;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     padding: auto;
     color: white;
 
@@ -48,5 +46,19 @@ nav{
 .text-color{
     color: red;
     border-radius: 4px;
+
+}
+.OFFER-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.sec-4{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.img-part{
     
 }
