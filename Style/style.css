@@ -25,8 +25,9 @@ nav{
     align-items: center;
     justify-content: center;
     background-image: url('/resources/Vectorrr.png');
-    width: 1320px;
+    width: 1300px;
     height: 400px;
+    margin-left: 100px;
     /* border-radius: 30px; */
     padding: auto;
     color: white;
@@ -60,5 +61,101 @@ nav{
     
 }
 .img-part{
+    /* background-image: url('/resources/Rectangle\ 2.png'); */
+}
+/* .img-part1{
+    display: flex;
+    position: absolute;
+}
+.img-part2{
+    position: absolute;
+} */
+.img-sec{
+    /* background-image: url('/resources/Rectangle\ 1.png'); */
+     display: flex;
+    position: relative ;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 100px; */
+    /* padding: 100px; */
+    /* font-size: large; */
+
+} 
+.img-sec1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
     
 }
+.img-sec4{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    position: relative;
+    margin-bottom: 200px;
+    
+} 
+
+
+
+
+.six-image-section{
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.msg-sec{
+    background-color:darksalmon;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+}
+/* .btn-sec{
+    border-radius: 5px; 
+    /* font-weight: 200;  */
+    /* font-size: 30px; */
+/* }   */
+.user-email{
+    border-radius: 6px;
+    font-weight: 100
+}
+.btn-sec2{
+    background-color: rgba(255, 0, 0, 0.679);
+    color: white;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 100px;
+    padding: 15px;
+    /* display: flex; */
+}
+
+
+.footer-sec{
+    background-color:rgba(0, 0, 139, 0.459) ;
+    height: 300px;
+    padding: 100px;
+    margin-top: 200px;
+
+}
+.footer-sec1{
+ display: flex;
+ justify-content: space-evenly;
+}
+.underline{
+    text-decoration: underline;
+      
+}
+.footer-sec2{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    text-decoration: underline;
+}
+.footer-sec3{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    padding: 30px;
+}
+
+
