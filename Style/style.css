@@ -1,3 +1,16 @@
+.newyear-sec{
+    /* justify-content: space-between;
+    /* align-items: end;
+    text-align: end;
+    display: flex; */ 
+    justify-content: flex-end;
+    margin-left: 1350px;
+    /* margin-top: 50px; */
+
+}
+.header-txt{
+    font-size: 30px;
+}
 nav{
     display: flex;
     justify-content: center;
@@ -5,7 +18,9 @@ nav{
     background-image: url('/resources/Banner\ Image.png');
     color: white;
     font-size: large;
+    width: 1350px;
     height: 600px;
+    margin-left: 50px;
 }
 .header-text{
     font-size: 45px;
@@ -21,16 +36,17 @@ nav{
     color: firebrick;
 }
 .midnight-sec2{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
     background-image: url('/resources/Vectorrr.png');
     width: 1300px;
     height: 400px;
     margin-left: 100px;
     /* border-radius: 30px; */
-    padding: auto;
+    padding: 10px;
     color: white;
+    font-size: 30px;
 
 }
 .sec-3{
@@ -81,18 +97,37 @@ nav{
     /* font-size: large; */
 
 } 
+.box-img{
+    position: absolute;
+    margin-top: 400px;
+    margin-right: 600px;
+}
+.red-img{
+    /* position: relative; */
+    background-image:url('/resources/Rectangle\ 2.png');
+}
+
 .img-sec1{
     display: flex;
     justify-content: center;
+    /* margin-right: 600px; */
     position: absolute;
+    /* margin-left: 80px; */
+    /* padding-right: 300px; */
+
     
 }
-.img-sec4{
+.image{
+    margin-left: 1050px;
+}
+.img-sec3{
     justify-content: center;
     align-items: center;
-    display: grid;
+    /* display: grid; */
     position: relative;
-    margin-bottom: 200px;
+    /* margin-right: 300px; */
+    /* margin-bottom: 200px; */
+    margin-left: 700px;
     
 } 
 
@@ -104,6 +139,29 @@ nav{
     align-items: center;
     padding: 100px;
 }
+/* .six-sec:hover{
+        opacity: 0.7; Example hover effect
+      
+} */
+.one-img:hover{
+    background-color:red;
+}
+.two-img:hover{
+    background-color:red;
+}
+.three-img:hover{
+    background-color:red;
+}
+.four-img:hover{
+    background-color:red;
+}
+.five-img:hover{
+    background-color:red;
+}
+.six-img:hover{
+    background-color:red;
+}
+
 .msg-sec{
     background-color:darksalmon;
     align-items: center;
@@ -117,15 +175,27 @@ nav{
 /* }   */
 .user-email{
     border-radius: 6px;
-    font-weight: 100
+    /* font-weight: 10; */
+    border-radius: 40px 0 0 40px;
+    font-size: 20px;
+    font-weight: 100px;
+    padding: 12px;
+    border: 0;
+    gap:0;
+
 }
 .btn-sec2{
     background-color: rgba(255, 0, 0, 0.679);
-    color: white;
-    border-radius: 40px;
+    color:white;
+    border-radius: 0 40px 40px 0;
+    /* border-radius: solid; */
     font-size: 20px;
-    font-weight: 100px;
-    padding: 15px;
+    border: 0;
+    font-weight: 150px;
+    margin-right:0;
+    /* position: relative; */
+    padding: 12px;
+    gap: 0;
     /* display: flex; */
 }
 
@@ -136,26 +206,30 @@ nav{
     padding: 100px;
     margin-top: 200px;
 
+
 }
 .footer-sec1{
  display: flex;
  justify-content: space-evenly;
 }
 .underline{
-    text-decoration: underline;
+    text-decoration: underline ;
       
 }
 .footer-sec2{
     justify-content:center;
     align-items: center;
     display: flex;
+ 
+}
+.line{
     text-decoration: underline;
 }
 .footer-sec3{
     display: flex;
     justify-content: space-evenly;
-    text-decoration: underline;
     padding: 30px;
 }
+
 
 
