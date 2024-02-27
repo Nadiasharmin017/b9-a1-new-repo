@@ -205,6 +205,7 @@ nav{
     height: 300px;
     padding: 100px;
     margin-top: 200px;
+    text-decoration: underline;
 
 
 }
@@ -212,15 +213,11 @@ nav{
  display: flex;
  justify-content: space-evenly;
 }
-.underline{
-    text-decoration: underline ;
-      
-}
+
 .footer-sec2{
     justify-content:center;
     align-items: center;
     display: flex;
- 
 }
 .line{
     text-decoration: underline;
@@ -229,7 +226,9 @@ nav{
     display: flex;
     justify-content: space-evenly;
     padding: 30px;
+    
 }
+
 
 
 
